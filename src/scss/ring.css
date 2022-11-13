@@ -1,0 +1,71 @@
+.ring {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 10px solid;
+  border-color: orange;
+  box-shadow: 1px 1px 2px #664200; }
+
+.ring2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 20px solid;
+  border-color: yellow;
+  box-shadow: 2px 2px 3px #666600; }
+
+.ring3:nth-child(1) {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 3px solid;
+  border-color: gray;
+  box-shadow: 1px 1px 2px #343434;
+  translate: -20px; }
+
+.ring3:nth-child(2) {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 6px solid;
+  border-color: gray;
+  box-shadow: 1px 1px 2px #343434;
+  translate: -40px; }
+
+.ring3:nth-child(3) {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 9px solid;
+  border-color: gray;
+  box-shadow: 1px 1px 2px #343434;
+  translate: -60px; }
+
+.ring3:nth-child(4) {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 12px solid;
+  border-color: gray;
+  box-shadow: 1px 1px 2px #343434;
+  translate: -80px; }
+
+.ring3:nth-child(5) {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 15px solid;
+  border-color: gray;
+  box-shadow: 1px 1px 2px #343434;
+  translate: -100px; }
+
+.ring3:nth-child(6) {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 18px solid;
+  border-color: gray;
+  box-shadow: 1px 1px 2px #343434;
+  translate: -120px; }
+
+/*# sourceMappingURL=ring.css.map */

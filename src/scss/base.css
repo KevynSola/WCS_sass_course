@@ -1,0 +1,19 @@
+body {
+  font-size: 2rem; }
+  body section:nth-child(3) {
+    flex-direction: column; }
+  body section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem; }
+    body section .ring-flex {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+  body h1,
+  body h2,
+  body h3 {
+    padding: 3rem; }
+
+/*# sourceMappingURL=base.css.map */

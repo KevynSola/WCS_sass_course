@@ -1,0 +1,26 @@
+$font-size: 2rem;
+$margin-padding: 3rem;
+
+body {
+  font-size: $font-size;
+  section:nth-child(3){
+    flex-direction: column;
+  }
+
+  section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: $margin-padding;
+    .ring-flex{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  h1,
+  h2,
+  h3 {
+    padding: $margin-padding;
+  }
+}

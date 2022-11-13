@@ -1,0 +1,24 @@
+@mixin ringPowa($w, $h, $x, $y, $blur, $color){
+    width: $w;
+    height: $h;
+    border-radius: 50%;
+    border: $w/10 solid;
+    border-color: $color;
+    box-shadow: $x $y $blur darken($color, 30);
+}
+
+.ring{
+    @include ringPowa(100px, 100px, 1px, 1px, 2px, orange);
+}
+
+.ring2{
+    @include ringPowa(200px, 200px, 2px, 2px, 3px, yellow);
+}
+
+@for $i from 1 to 7 {
+    .ring3:nth-child(#{$i}){
+        @include ringPowa(30px * $i, 30px * $i, 1px, 1px, 2px, gray);
+    
+        translate: -20px * $i;
+    }
+}
